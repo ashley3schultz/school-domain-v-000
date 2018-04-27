@@ -20,6 +20,17 @@ class School
   end
   
   def sort
+<<<<<<< HEAD
     @roster.each {|gk, av| @roster[gk] = av.sort}
   end
+=======
+    
+    @roster.each {|gk, av| @roster[grade] = av.sort
+      #binding.pry
+    }
+    #@roster
+  end
+  
+#class end 
+>>>>>>> 861fac946f4d9c08a552304c0f0259b1040b46f6
 end 
